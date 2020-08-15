@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    margin: 0;
+    background: #e9e9e9;
+}
+
+.titulo-pagina{
+    font-family: 'Roboto', sans-serif;
+    /*border: 1px solid;*/
+}
+
+.titulo-pagina h1{
+    /*border: 1px solid;*/
+    /*width: 21%;*/
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.linha{
+    height: 20px;
+}
+
+.container{
+    width: 100%;
+    /*margin: auto;*/
+}
+
+.procura{
+    width: 40%;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 10px 10px 0 rgba(0,0,0,0.08);
+}
+
+.label-titulo{
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.label-titulo h2{
+    width: max-content;
+    padding: 10px;
+    /*margin-left: auto;
+    margin-right: auto;*/
+}
+
+.input-type{
+    width: 100%;
+    /*padding: 10px;*/
+    margin-left: 10px;
+}
+
+.input-type input{
+  width: 90%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+/*input[type=submit]*/
+.botao {
+	width: 50%;
+	/*margin-left: auto;
+	margin-right: auto;*/
+}
+
+input[type=submit]{
+    background-color: #2a75f3;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: white;
+	cursor: pointer;
+}
+
+input[type=submit]:hover {
+  /*background-color: #45a049;*/
+  /*background-color: #f082ac;*/
+  background-color: #002248;
+}

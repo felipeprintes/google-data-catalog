@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../static/meu_css_catalog.css">
+    <title>Title</title>
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="resultado-titulo">
+            <h1>Resultado da pesquisa</h1>
+        </div>
+
+        <div class="content">
+            <div class="pesquisa">
+                <h2>Valor pesquisado: {{filtro}}</h2>
+                <h2>Total encontrado: {{total_results}} resultados</h2>
+            </div>
+
+
+            <div class="tabela">
+                <table>
+                    <tr>
+                        <th>Projeto</th>
+                        <th>Dataset</th>
+                        <th>Tabela</th>
+                    </tr>
+                    {% for result in results %}
+                    <tr>
+                        <td>{{result['projeto']}}</td>
+                        <td>{{result['dataset']}}</td>
+                        <td>{{result['tabela']}}</td>
+                    </tr>
+                    {% endfor %}
+
+                </table>
+            </div>
+        </div>
+
+    </div>
+
+
+</body>
+</html>

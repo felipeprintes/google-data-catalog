@@ -1,0 +1,52 @@
+@media screen and (min-width: 0){
+    .titulo-pagina h1{
+        font-size: 25px;
+    }
+
+    .label-titulo h2{
+        font-size: 20px;
+    }
+
+    .procura{
+        width: 100%;
+        height: 210px;
+        /*margin: 20px 20px;*/
+    }
+}
+
+@media screen and (min-width: 768px){
+
+    .titulo-pagina h1{
+        font-size: 30px;
+    }
+
+    .label-titulo h2{
+        font-size: 25px;
+    }
+
+    .procura{
+        width: 70%;
+    }
+
+}
+
+@media screen and (min-width: 992px){
+
+    .titulo-pagina h1{
+        font-size: 30px;
+    }
+
+    .label-titulo h2{
+        font-size: 25px;
+    }
+
+    .procura{
+        width: 50%;
+    }
+
+
+}
+
+@media screen and (min-width: 1200px){
+
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../static/meu_css.css">
+    <link rel="stylesheet" type="text/css" href="../static/resposivo.css">
+    <title>Data Calog</title>
+</head>
+<body>
+
+    <div class="titulo-pagina">
+        <h1>Procure seus dados!</h1>
+    </div>
+
+    <div class="linha">
+        <svg width="100%" width="1px">
+            <line x1="0" y1="0" x2="100%" y2="0" style="stroke:rgb(186,186,186);stroke-width:2" />
+        </svg>
+    </div>
+
+    <div class="container">
+
+        <form method="POST" action="{{url_for('catalog')}}">
+
+            <div class="procura">
+
+                <div class="label-titulo">
+                    <label><h2>Procure pelo nome de uma tabela ou coluna</h2></label>
+                </div>
+
+                <div class="input-type">
+
+                    <input type="text" name="filtro" required placeholder="Digete o nome da tabela ou coluna..."/>
+
+                    <div class="botao">
+                        <input type="submit" value="Procurar">
+                    </div>
+
+                </div>
+
+            </div>
+
+        </form>
+    </div>
+
+
+
+</body>
+</html>
